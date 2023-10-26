@@ -13,17 +13,17 @@ Para cada dígito do cronômetro há 4 flip-flops D, cujas saídas estão ligada
 
 Este é o circuito combinacional para os dígitos que vão de 5 a 0:
 
-![combinacional 5-0](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/6cd49640-5868-4f7f-ac07-6d5bb9dd080f)
+![combinacional 5-0](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/33fa64dd-04bf-4f1c-b79f-a7c12fbd066d)
 
 Este é o circuito para os dígitos que vão de 9 a 0:
 
-![combinacional 9-0](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/d80d1b42-c4bb-43ed-ae53-eb11c281e794)
+![combinacional 9-0](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/c14654d1-69f0-4805-962f-185d0b3acafa)
 
 ____________________
 
 Circuito somador:
 
-![somador](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/88333d62-6c7b-4426-9291-b09491b57a4a)
+![somador](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/3d4d0467-cf0b-436a-b160-25d2c7f1d2e5)
 
 O somador recebe dois números de 4 bits e retorna um número de cinco bits.
 obs: O quinto bit (mais significativo) de cada número que entra no somador é apenas um bit de sinal.
@@ -36,7 +36,7 @@ Além disso, uma das saídas representa o sinal desse número.
 Por exemplo, se as 4 entradas forem 1 0 0 1, ele irá ter como saída os valores 1 0 1 1 1, sendo o primeiro bit o de sinal.
 Representando assim um 7 negativo.
 
-![combinacional display](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/b4b2881c-65f2-44f3-8e1e-18dc2ba43930)
+![combinacional display](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/0cbcb741-25dc-455b-b3b5-e3924c0aca18)
 
 ____________________
 
@@ -44,56 +44,56 @@ Visto alguns dos circuitos elementares para a construção do projeto, eis a apl
 
 ____________________
 
-![image](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/02aa8ac5-1838-4498-8cf9-9148badc374f)
+![image](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/bb67007b-1dd2-46b5-80f9-745691dc066b)
 
 Representação dos números escolhidos pelos jogadores, do número X e do número Y nos displays.
 
 ____________________
 
-![image](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/efad7878-3dc7-480a-a807-ff9c37a5745c)
+![image](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/3bf59b08-e7d9-4898-a94c-59317d301c1b)
 
 Circuito para o botão de chutar.
 
 ____________________
 
-![image](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/bcb1ecc1-88b8-4b39-beca-5107e3aafb7d)
+![image](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/5df4617a-9a23-4b20-9a22-c95973d79e2c)
 
 No primeiro circuito temos a soma entre o número X e Y escolhidos pelos jogadores.
 Logo após há a comparação desse número com um número aleatório gerado pelo jogo.
 
 ____________________
 
-![image](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/927589f2-30e2-4fd4-ac5a-cd90011b4e15)
+![image](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/c050124f-98bb-4ab7-a929-f64b7502e574)
 
 Circuito para o botão de próximo.
 
 ____________________
 
-![image](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/9a6c488e-7a81-488e-b61b-5340fd057148)
+![image](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/b0b68740-9e99-4669-ad6a-f79b964976ab)
 
 Esse é o circuito que recebe o resultado da comparação e indica qual led deve ser aceso, bem como se houve ponto.
 
 ____________________
 
-![image](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/dbdf517d-1cf9-4d82-84b3-ea66d3cd2c44)
+![image](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/d7b2cbb5-59ae-4813-bd36-12b8fe7a2172)
 
 Cicuito responsável pela representação do placar.
 
 ____________________
 
-![image](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/0a44269d-7d0e-4f8e-85b1-52118de9de4a)
+![image](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/bd157cc5-80bc-45d5-a5e0-4562fc5cb1e8)
 
 Quando o tempo dos dois jogadores acaba, esse circuito mostra se houve vencedor ou se foi um empate.
 
 ____________________
 
-![image](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/5161442b-f38c-4519-966d-aa94940e6d9e)
+![image](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/ca46e592-cd97-466e-ab8a-2fa7a2ce517f)
 
 Aqui temos as condições para definir quando o jogo acaba e qual jogador está na vez.
 
 ____________________
 
-![image](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/d1ce4fd7-e53e-4bc6-a1dc-c23dc3c0a199)
+![image](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/bddff99b-b6db-4059-af3f-fbcfe2d07e18)
 
 Esse é o circuito responsável por gerar um número aleatório.
 São gerados dois números aleatórios de 4 bits e, em seguida, feito a soma entre eles.
@@ -101,7 +101,7 @@ O máximo valor possível é 14 e o mínimo é -16.
 
 ____________________
 
-![image](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/5febaab2-eb8e-4eeb-8e54-092b9b7b784c)
+![image](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/e23645e3-2991-4722-8878-5dd53553bac8)
 
 Essa é a aplicação do cronômetro no circuito principal.
 Há um para cada jogador e aí estão definidas as condições para cada um dos cronômetros iniciarem, pausarem ou resetarem.
