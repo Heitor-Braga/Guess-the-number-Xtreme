@@ -1,5 +1,5 @@
 # Guess-the-number-Xtreme
-![projeto finalizado](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/2bcc473e-4d9a-4af7-961a-abf9426c8109)
+![projeto finalizado](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/ff785bf3-6a94-41ab-9ee3-18826b44b721)
 
 Projeto finalizado.
 
@@ -7,7 +7,7 @@ ____________________
 
 Circuito do cronômetro:
 
-![cronometro](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/75b7c87f-ca8e-4350-a5a4-e8fcddf8dd0d)
+![cronometro](https://github.com/Heitor-Braga/Guess-the-number-Xtreme/assets/149103391/23326c6e-6eaa-4ea5-915a-11dc3bfad568)
 
 Para cada dígito do cronômetro há 4 flip-flops D, cujas saídas estão ligadas a um circuito combinacional, que define, a partir do número atual mostrado no display, o estado próximo de cada flip-flop.
 
